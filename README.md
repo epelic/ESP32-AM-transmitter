@@ -109,7 +109,9 @@ GPIO27 non e' un'uscita RF pronta per un'antenna. Usare carico fittizio,
 accoppiamento molto debole, attenuazione e filtraggio passa-banda/passa-basso
 adeguati. Non collegare direttamente un'antenna. Le emissioni radio sono
 soggette alle norme locali: eseguire le prove in modo schermato e senza
-irradiazione non autorizzata.
+irradiazione non autorizzata. Inoltre la qualità è molto scarsa, si tira dietro
+parecchi rumori dall'ESP32. Il tutto è stato fatto "tanto per vedere" se 
+l'ESP32 era in grado pure di trasmettere.
 
 ---
 
@@ -216,7 +218,9 @@ and the current envelope. Normal operation is approximately 10000 samples/s,
 GPIO27 is not an antenna-ready RF output. Use a dummy load, very weak coupling,
 proper attenuation, and suitable RF filtering. Do not connect an antenna
 directly. Radio emissions are regulated: perform tests in a shielded setup and
-do not radiate without the required authorization.
+do not radiate without the required authorization.In addition, the quality is very poor,
+as it picks up considerable noise from the ESP32. This was entirely done just to test
+whether the ESP32 was also capable of transmission.
 
 ## Status
 
