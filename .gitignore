@@ -1,0 +1,8 @@
+.arduinoIDE/
+build/
+*.bin
+*.elf
+*.map
+*.wav
+*.mp3
+
